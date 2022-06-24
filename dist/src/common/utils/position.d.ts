@@ -1,3 +1,7 @@
+declare type PointObjectNotation = {
+    x: number;
+    y: number;
+};
 /**
  * Given a point position, get the closes data point in the dataset.
  */
@@ -33,3 +37,4 @@ export declare const constrainMatrix: (height: number, width: number, matrix: an
  * Determine if both min and max scale fctors are going out of bounds.
  */
 export declare const isZoomLevelGoingOutOfBounds: (value: any, scaleFactor: number) => boolean;
+export {};
